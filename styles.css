@@ -1,0 +1,17 @@
+/* Custom styles for password strength indicator */
+.password-strength {
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  
+  .password-strength.weak {
+    color: red;
+  }
+  
+  .password-strength.medium {
+    color: orange;
+  }
+  
+  .password-strength.strong {
+    color: green;
+  }
